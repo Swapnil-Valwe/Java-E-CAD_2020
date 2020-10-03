@@ -13,7 +13,7 @@ class PyramidPattern1
 
         int rows = scanner.nextInt();
 
-        System.out.println("** Printing the pattern... **");
+        System.out.println("** Printing Pyramid **");
 
         for (int i = 1; i <= rows; i++)
         {
