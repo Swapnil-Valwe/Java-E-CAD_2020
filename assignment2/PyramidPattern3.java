@@ -1,4 +1,4 @@
-package assignment2;
+package Assignment2;
 class PyramidPattern3
 {
     public static void main(String args[])

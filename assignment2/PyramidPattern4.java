@@ -1,4 +1,4 @@
-package assignment2;
+package Assignment2;
 import java.util.Scanner;
 
 class PyramidPattern4
@@ -6,14 +6,11 @@ class PyramidPattern4
     public static void main(String[] args)
     {
   
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
        
-        System.out.println("Enter the number of rows needed in the pattern ");
-
-        int rows = scanner.nextInt();
-
-        System.out.println("** ...Printing Pyramid... **");
+        System.out.println("Enter the number of rows: ");
+        int rows = sc.nextInt();
 
         for (int i = 1; i <= rows; i++)
         {
@@ -30,6 +27,7 @@ class PyramidPattern4
                 System.out.print(l);
             }
             System.out.println();
+            sc.close();
         }
     }
 }

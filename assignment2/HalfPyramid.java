@@ -1,4 +1,4 @@
-package assignment2;
+package Assignment2;
 class HalfPyramid
 {
 	public static void main(String[] args)

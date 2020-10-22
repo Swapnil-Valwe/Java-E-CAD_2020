@@ -1,4 +1,4 @@
-package assignment2;
+package Assignment2;
 class FullPyramid
 {
     public static void main(String args[])
@@ -19,3 +19,4 @@ class FullPyramid
         }
     }
 }
+ 
