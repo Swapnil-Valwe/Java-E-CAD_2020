@@ -13,24 +13,32 @@ public class Marriage
 			System.out.println("Enter sex: M/F");
 			int sex = sc.next().charAt(0);
 		
-			if((sex == 'F') && (age > 18)) {
+			if(sex == 'F')  
+		{
 				
-		
+			if (age>=18) 
+			{
 			System.out.println("You are eligible for marriage.");
 			}
 			
-			else {
-		System.out.println("You are not eligible for marriage.");
+			else 
+			{
+				System.out.println("You are not eligible for marriage.");
 			}
+		}
 			
 	
-			if((sex == 'M') && (age>21)) 
-			{
-				System.out.println("You are eligible for marriage.");}
+			if(sex == 'M')
+		{
+				if(age>=21) 
+				{
+				System.out.println("You are eligible for marriage.");
+				}
 			
 				else {
 					System.out.println("You are not eligible for marriage");
-			}
+					}
+		}
 			sc.close();
 		
 	}
